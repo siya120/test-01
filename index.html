@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Interactive Dashboard</h1>
+        
+        <!-- Navigation Section -->
+        <nav>
+            <button onclick="showSlide(1)">Slide 1: Welcome</button>
+            <button onclick="showSlide(2)">Slide 2: Insights</button>
+            <button onclick="showSlide(3)">Slide 3: Analysis</button>
+            <button onclick="showSlide(4)">Slide 4: Conclusion</button>
+        </nav>
+        
+        <!-- Content Section -->
+        <div class="content">
+            <div id="slide1" class="slide">
+                <h2>Slide 1: Welcome</h2>
+                <p>Welcome to the interactive dashboard. This is the first slide.</p>
+            </div>
+            <div id="slide2" class="slide">
+                <h2>Slide 2: Insights</h2>
+                <p>This slide contains insights about the project.</p>
+            </div>
+            <div id="slide3" class="slide">
+                <h2>Slide 3: Analysis</h2>
+                <p>This slide presents an analysis of the data.</p>
+            </div>
+            <div id="slide4" class="slide">
+                <h2>Slide 4: Conclusion</h2>
+                <p>This is the final slide with concluding remarks.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
